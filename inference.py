@@ -71,7 +71,7 @@ def generate_accompaniment(seq, surrogate_encoder, musicvae=None,
                                             MUSICVAE_MODEL_NAME + '.ckpt')
     )
 
-    # If the sequence is provided as a MIDI path, load it
+    # If the sequence is provided as a MIDI path, load it 
     if isinstance(seq, str):
         midi = None
         with open(seq, 'rb') as midi_file:
