@@ -15,7 +15,7 @@ import numpy as np
 import h5py
 
 import tensorflow as tf
-tf.logging.set_verbosity(tf.logging.ERROR)  # noqa
+# tf.logging.set_verbosity(tf.logging.ERROR)  # noqa
 
 import magenta.music as mm
 from magenta.models.music_vae import configs
